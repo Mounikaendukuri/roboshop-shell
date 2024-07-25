@@ -1,6 +1,6 @@
 #!/bin/bash
 
-instances=("mongodb" "redis" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "web")
+instances=("mongodb" "redis" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "web" "mysql")
 domain_name="mounikadaws.online"
 hosted_zone_id="Z05150173VG58NUDRU1IK"
 
