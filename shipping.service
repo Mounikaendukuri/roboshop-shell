@@ -1,0 +1,11 @@
+[Unit]
+Description=Shipping Service
+
+[Service]
+User=roboshop
+Environment=CART_ENDPOINT=cart.mounikadaws.online:8080
+Environment=DB_HOST=mysql.mounikadaws.online
+ExecStart=/bin/java -jar /app/shipping.jar
+SyslogIdentifier=shipping
+
+[Install]
