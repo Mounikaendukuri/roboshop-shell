@@ -1,7 +1,7 @@
 #!/bin/bash
 
 instances=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "web")
-domain_name="mounika.daws.online"
+domain_name="mounikadaws.online"
 hosted_zone_id="Z05150173VG58NUDRU1IK"
 
 for name in ${instances[@]}; do
